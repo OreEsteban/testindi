@@ -37,11 +37,45 @@ var app = new Framework7({
     	name: 'info',
   		},
 		{
-		path: '/ice-latte/',
-    	url: 'ice-latte.html',
-    	name: 'ice-latte',
+		path: '/Ice-latte/',
+    	url: 'Ice-latte.html',
+    	name: 'Ice-latte',
+  		},
+		{
+		path: '/Categorias/',
+    	url: 'Categorias.html',
+    	name: 'Categorias',
+  		},
+		{
+		path: '/Comprar/',
+    	url: 'Comprar.html',
+    	name: 'Comprar',
+  		},
+		{
+		path: '/Espresso/',
+    	url: 'Espresso.html',
+    	name: 'Espresso',
+  		},
+		{
+		path: '/detalle/',
+    	url: 'detalle.html',
+    	name: 'detalle',
+  		},
+		{
+		path: '/info/',
+    	url: 'info.html',
+    	name: 'info',
+  		},
+		{
+		path: '/Notificaciones/',
+    	url: 'Notificaciones.html',
+    	name: 'Notificaciones',
+  		},
+		{
+		path: '/SobreNosotros/',
+    	url: 'SobreNosotros.html',
+    	name: 'SobreNosotros',
   		}
-		
 		
 	],
 	dialog: {

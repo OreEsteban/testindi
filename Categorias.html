@@ -83,11 +83,11 @@
         </section>
         
         <div class="view view-main view-init">
-            <section data-name="categories" class="page">
+            <section data-name="categorias" class="page">
                 <nav class="navbar">
                     <div class="navbar-bg"></div>
                     <div class="navbar-inner">
-                        <a href="index.html"><img src="img/img/CafeConnect_Blanco.png" alt=""></a>
+                        <a href="/home/"><img src="img/img/CafeConnect_Blanco.png" alt=""></a>
                         <div class="right">
                             <a href="#" class="link panel-open" data-panel="left">
                                 <i class="material-icons">menu</i>
@@ -98,14 +98,14 @@
                 
                 <section class="page-content">
                     <div class="block segment-buttons segment-buttons-raised" style="display: flex; justify-content: center; visibility: visible;">
-                        <a href="index.html">
+                        <a href="/home/">
                             <button class="button button-volver">Volver a Menú</button>
                         </a>
                         <button class="button button-categorias">Categorías</button>
                     </div>
                     <div class="block segment-buttons segment-buttons-raised" style="display: flex; justify-content: center; visibility: visible;">
-                        <button class="button button-retiro">Retiro en Tienda</button>
-                        <button class="button button-enviar">Envío a Domicilio</button>
+                        <a href="/Comprar/"><button class="button button-retiro">Retiro en Tienda</button></a>
+                        <a href="/Comprar/"><button class="button button-enviar">Envío a Domicilio</button></a>
                     </div>
 
                     <div class="block">
@@ -163,7 +163,8 @@
                             <div class="col-50">
                                 <div class="card producto">
                                     <div class="card-content card-content-padding">
-                                        <img src="img/categoria/catexpresso.png" alt="" class="img-fluid">
+										<a href="/Espresso/"> <img src="img/categoria/catexpresso.png" alt="" class="img-fluid"></a>
+                                       
                                         <h4 class="nombre-producto">Espresso</h4>
 
                                     </div>
@@ -190,25 +191,25 @@
                 </section>
             </section>
              <nav class="toolbar tabbar tabbar-labels toolbar-bottom">
-            <div class="toolbar-inner">
-                <a href="index.html" class="link">
-                    <i class="material-icons">home</i>
-                    <span class="tabbar-label">Home</span>
-                </a>
-                <a href="/products/" class="link">
-                    <i class="material-icons">favorite</i>
-                    <span class="tabbar-label">Favorite</span>
-                </a>
-                <a href="#" class="link">
-                    <i class="material-icons">shopping_basket</i>
-                    <span class="tabbar-label">Cart</span>
-                </a>
-                <a href="#" class="link">
-                    <i class="material-icons">account_circle</i>
-                    <span class="tabbar-label">Profile</span>
-                </a>
-            </div>
-        </nav>
+			<div class="toolbar-inner">
+				<a href="/home/" class="link">
+					<i class="material-icons">home</i>
+					<span class="tabbar-label">Home</span>
+				</a>
+				<a href="/products/" class="link">
+					<i class="material-icons">favorite</i>
+					<span class="tabbar-label">Favorite</span>
+				</a>
+				<a href="/Comprar/" class="link">
+					<i class="material-icons">shopping_basket</i>
+					<span class="tabbar-label">Cart</span>
+				</a>
+				<a href="#" class="link">
+					<i class="material-icons">account_circle</i>
+					<span class="tabbar-label">Profile</span>
+				</a>
+			</div>
+		</nav>
             
         </div>
     </div>
