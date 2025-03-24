@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framework7</title>
+    <link href="css/framework7.bundle.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <section class="panel panel-left panel-cover">
+            <div id="perfil" class="block">
+                <img src="img/img/profile.png" alt="">
+                <h4>Esteban Orellana</h4>
+                <p>Animador 3D</p>
+            </div>
+            <div class="list media-list">
+                    <ul>
+                    <li>
+                        <a href="/home/" class="item-link item-content panel-close">
+                            <div class="item-media">
+                                <span class="material-icons">home</span>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Home</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/products/" class="item-link item-content panel-close">
+                            <div class="item-media">
+                                <span class="material-icons">sell</span>
+                            </div>
+                            <div class="item-inner">
+                                 <div class="item-title">Products</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#" class="item-link item-content">
+                        <div class="item-media">
+                            <span class="material-icons">question_answer</span>
+                          </div>
+                        <div class="item-inner">
+                          <div class="item-title">Messages</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="item-link item-content">
+                        <div class="item-media">
+                            <span class="material-icons">notifications</span>
+                          </div>
+                        <div class="item-inner">
+                          <div class="item-title">Notifications</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="item-link item-content">
+                        <div class="item-media">
+                            <span class="material-icons">bookmark</span>
+                          </div>
+                        <div class="item-inner">
+                          <div class="item-title">Bookmarks</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="item-link item-content">
+                        <div class="item-media">
+                            <span class="material-icons">account_circle</span>
+                          </div>
+                        <div class="item-inner">
+                          <div class="item-title">Profile</div>
+                        </div>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <div class="view view-main view-init">
+            <section data-name="categories" class="page">
+                <nav class="navbar">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner">
+                        <a href="index.html"><img src="img/img/CafeConnect_Blanco.png" alt=""></a>
+                        <div class="right">
+                            <a href="#" class="link panel-open" data-panel="left">
+                                <i class="material-icons">menu</i>
+                            </a>
+                        </div>
+                    </div>
+                  </nav>
+                
+                <section class="page-content">
+                    <div class="block segment-buttons segment-buttons-raised" style="display: flex; justify-content: center; visibility: visible;">
+                        <a href="index.html">
+                            <button class="button button-volver">Volver a Menú</button>
+                        </a>
+                        <button class="button button-categorias">Categorías</button>
+                    </div>
+                    <div class="block segment-buttons segment-buttons-raised" style="display: flex; justify-content: center; visibility: visible;">
+                        <button class="button button-retiro">Retiro en Tienda</button>
+                        <button class="button button-enviar">Envío a Domicilio</button>
+                    </div>
+
+                    <div class="block">
+                        <div class="swiper-container" data-space-between="10">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="padding: 0 10px;">
+                                    <img src="img/categoria/catsmoothie.png" alt="Slide 1" class="img-fluid">
+                                    <div class="swiper-caption" style="text-align: center"><b>Bebidas Frías</b></div>
+                                </div>
+                                <div class="swiper-slide" style="padding: 0 10px;">
+                                    <img src="img/categoria/catlatte1.png" alt="Slide 2" class="img-fluid">
+                                    <div class="swiper-caption" style="text-align: center"><b>Bebidas Calientes</b></div>
+                                </div>
+                                <div class="swiper-slide" style="padding: 0 10px;">
+                                    <img src="img/categoria/catpostre.png" alt="Slide 3" class="img-fluid">
+                                    <div class="swiper-caption" style="text-align: center"><b>Postres</b></div>
+                                </div>
+                                 <div class="swiper-slide" style="padding: 0 10px;">
+                                    <img src="img/categoria/catsandwich.png" alt="Slide 4" class="img-fluid">
+                                    <div class="swiper-caption" style="text-align: center"><b>Aperitivos</b></div>
+                                </div>
+                                <div class="swiper-slide" style="padding: 0 10px;">
+                                    <img src="img/categoria/catpasta.png" alt="Slide 5" class="img-fluid">
+                                    <div class="swiper-caption" style="text-align: center"><b>Almuerzos</b></div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="row">
+                            <div class="col-50">
+                                <div class="card producto">
+                                    <div class="card-content card-content-padding">
+                                        <img src="img/categoria/catlatte.png" alt="" class="img-fluid">
+                                        <h4 class="nombre-producto">Latte</h4>
+                                         <p>4.5/5</p>
+                                        <p>L. 45</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-50">
+                                <div class="card producto">
+                                    <div class="card-content card-content-padding">
+                                        <img src="img/categoria/catcaramelo.png" alt="" class="img-fluid">
+                                        <h4 class="nombre-producto">Latte Caramelo</h4>
+                                         <p>4.5/5</p>
+                                        <p>L. 65</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="row">
+                            <div class="col-50">
+                                <div class="card producto">
+                                    <div class="card-content card-content-padding">
+                                        <img src="img/categoria/catexpresso.png" alt="" class="img-fluid">
+                                        <h4 class="nombre-producto">Espresso</h4>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-50">
+                                 <div class="card producto">
+                                    <div class="card-content card-content-padding">
+                                        <img src="img/categoria/catchocolate.png" alt="" class="img-fluid">
+                                        <h4 class="nombre-producto">Chocolate Caliente</h4>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="block">
+                        <div class="navbar-inner">
+                            <div class="title">Categorías</div>
+                        </div>
+                    </div>
+                    
+                </section>
+            </section>
+             <nav class="toolbar tabbar tabbar-labels toolbar-bottom">
+            <div class="toolbar-inner">
+                <a href="index.html" class="link">
+                    <i class="material-icons">home</i>
+                    <span class="tabbar-label">Home</span>
+                </a>
+                <a href="/products/" class="link">
+                    <i class="material-icons">favorite</i>
+                    <span class="tabbar-label">Favorite</span>
+                </a>
+                <a href="#" class="link">
+                    <i class="material-icons">shopping_basket</i>
+                    <span class="tabbar-label">Cart</span>
+                </a>
+                <a href="#" class="link">
+                    <i class="material-icons">account_circle</i>
+                    <span class="tabbar-label">Profile</span>
+                </a>
+            </div>
+        </nav>
+            
+        </div>
+    </div>
+    
+    <script src="js/framework7.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

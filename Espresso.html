@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+			
+		<section class="panel panel-left panel-cover">
+		
+			<div id="perfil" class="block">
+				<img src="img/img/profile.png" alt="">
+				<h4>Esteban Orellana</h4>
+				<p>Animador 3D</p>
+			</div>
+			
+			<div class="list media-list">
+				<ul>
+					<li>
+					  <a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+						  	<span class="material-icons">home</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Home</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/products/" class="item-link item-content panel-close">
+						<div class="item-media">
+						  	<span class="material-icons">sell</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Products</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">question_answer</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Messages</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">notifications</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Notifications</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">bookmark</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Bookmarks</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">account_circle</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Profile</div>
+						</div>
+					  </a>
+					</li>
+				</ul>
+			</div>
+			
+		
+		</section>
+		
+		
+	<div class="view view-main view-init">
+
+	<section data-name="home" class="page">
+
+	  <!-- Top Navbar -->
+	  <nav class="navbar">
+		<div class="navbar-bg"></div>
+		<div class="navbar-inner">
+			<img src="img/img/CafeConnect_Blanco.png" alt="">
+			
+			<div class="right">
+				<a href="#" class="link panel-open" data-panel="left">
+					<i class="material-icons">menu</i>
+				</a>
+			</div>
+		</div>
+	  </nav>
+
+		
+  
+
+            <!-- Contenido de cada pestaña -->
+           <section class="page-info">
+		
+		<article class="col-70">
+		<div id="info-producto" class="block">
+			
+			<img src="img/img/expresso.png" alt="" class="img-fluid">
+				<h2>Espresso</h2>
+				<h4 class="precio-producto">L.55</h4>
+				<p>Nuestro espresso es intenso y aromático, con notas profundas de chocolate amargo. Perfecto para quienes buscan energía y carácter en cada sorbo</p>	
+			</div>
+			</article>
+		
+		<div class="row">
+				<article class="col">
+					<a href="info.html" class="button button-fill button-round link-icon">Comprar</a>
+				</article>
+				<article class="col text-align-right">
+				  <span class="material-symbols-outlined">favorite</span>
+				</article>
+			</div>
+		
+                <h3 class="block-title block-title-medium">También te puede interesar...</h3>
+           
+		
+		<div id="info-products" class="block">
+				
+				<div class="swiper-container swiper-init" data-slides-per-view="2">
+				
+					<article class="col-50">
+					<div class="swiper-wrapper">
+						<article class="swiper-slide">
+							<div class="more products">
+								<div class="card-content card-content-padding">
+									<img src="img/img/latteregular.jpg" alt="" class="img-fluid">
+									<h4 class="nombre-producto">Latte Regular</h4>
+							  </div>
+							</div>
+						</article>
+					</div>
+					</article>
+						
+					<article class="col-50">
+						<article class="swiper-slide">
+							<div class="more products">
+								<div class="card-content card-content-padding">
+									<img src="img/img/chocolate.png" alt="" class="img-fluid">
+									<h4 class="nombre-producto">Chocolate</h4>
+								</div>
+							</div>
+						</article>
+						</article>
+				  </div>
+				</div>
+</section>
+
+    <script>
+        function mostrarContenido(seccion) {
+            // Definir el contenido de cada pestaña
+            let contenido = {
+                "mision": {
+                    "titulo": "Nuestra Misión",
+                    "texto": "Nuestra misión es ofrecer café de alta calidad con procesos sostenibles y un servicio excepcional."
+                },
+                "vision": {
+                    "titulo": "Nuestra Visión",
+                    "texto": "Buscamos ser la referencia en café artesanal, innovando con nuevas técnicas y sabores únicos."
+                },
+                "historia": {
+                    "titulo": "Nuestra Historia",
+                    "texto": "Desde nuestros inicios, hemos trabajado con pasión para llevar el mejor café a nuestros clientes."
+                }
+            };
+
+            // Actualizar el contenido de la tarjeta
+            document.getElementById("titulo-card").innerText = contenido[seccion].titulo;
+            document.getElementById("texto-card").innerText = contenido[seccion].texto;
+
+            // Actualizar el estado activo de los botones
+            let botones = document.querySelectorAll(".tab");
+            botones.forEach(btn => btn.classList.remove("active"));
+            event.target.classList.add("active");
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+	</section> <!--/page -->
+		
+		<!-- toolbar -->
+		
+		<nav class="toolbar tabbar tabbar-labels toolbar-bottom">
+			<div class="toolbar-inner">
+				<a href="index.html" class="link">
+					<i class="material-icons">home</i>
+					<span class="tabbar-label">Home</span>
+				</a>
+				<a href="/products/" class="link">
+					<i class="material-icons">favorite</i>
+					<span class="tabbar-label">Favorite</span>
+				</a>
+				<a href="#" class="link">
+					<i class="material-icons">shopping_basket</i>
+					<span class="tabbar-label">Cart</span>
+				</a>
+				<a href="#" class="link">
+					<i class="material-icons">account_circle</i>
+					<span class="tabbar-label">Profile</span>
+				</a>
+			</div>
+		</nav>
+				
+		
+		<!-- /toolbar -->
+		
+	</div><!--/view -->
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>
+
