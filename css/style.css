@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --f7-theme-color:#48A4D9;
+    --f7-navbar-bg-color: #48A4D9;
+    --f7-navbar-link-color: #FFF;
+    --f7-navbar-text-color:#FFF;
+    --f7-bars-bg-color:#fff;
+    --f7-tabbar-link-inactive-color: #333;
+    --f7-block-margin-vertical:20px;
+    --f7-card-footer-border-color:transparent; 
+    --color-gris:#8F8F8F;
+    --color-azul: #48A4D9;
+    --color-celeste: #58BDEB;
+    --color-celeste2: #148FFF;
+    --color-negro:#000;
+    --fondo-gris:#f2f2f2;
+    --card-color: #E7E7E7;
+    --color-marron: #8A5438;
+    --color-azul-oscuro: #00507E;
+}
+
+body{
+      font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+    color: var(--color-negro);
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 2px 0;
+    color: var(--color-negro);
+}
+p{
+    margin: 2px 0;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+
+#perfil{
+    background-color: var(--fondo-gris);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 30px;
+}
+#perfil img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.panel-left .item-media span{
+    color: var(--f7-theme-color);
+}
+.panel-left .item-title{
+    font-size: 14px;
+}
+
+
+#welcome .top .profile{
+    display: flex;
+}
+
+#welcome .top p{
+    color: var(--color-celeste)
+}
+
+#welcome .top h2{
+    font-family: 'Libre Bodoni';
+  font-style: italic;
+    font-weight: 200;
+    color: var(--color-celeste);
+}
+#welcome h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#welcome .card{
+    background-color: var(--card-color);
+    color: black;
+    font-weight: 450;
+    border-radius: 15px;
+    
+}
+
+#welcome .card p{
+    font-size: 14px;
+    font-size: 12px;
+}
+#welcome .card h2{
+    color: var(--color-celeste);
+    font-size: 20px;
+}
+
+#welcome .card h4{
+    color: var(--color-azul);
+}
+#welcome .card-content{
+    padding-bottom: 0;
+}
+
+#welcome .precio{
+    position: absolute;
+    bottom: 0;
+    background-color: var(--color-negro);
+    color: #fff;
+    padding: 15px 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.block-title{
+    color: var(--color-negro);
+}
+.block-title-medium{
+    font-size: 22px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    line-height: 16px;
+}
+
+.producto.card{
+    box-shadow: 0px 0px 10px 4px var(--fondo-gris);
+}
+.producto .card-footer{
+    background-color: var(--f7-theme-color);
+    color: #fff;
+}
+.producto a{
+    color: #fff;
+}
+.producto img{
+    max-height: 130px;
+    margin: auto;
+    display: block;
+}
+
+.nombre-producto{
+    font-size: 15px;
+}
+.tipo-producto{
+    color: var(--color-gris);
+    font-weight: 400;
+}
+.precio-producto{
+    color: var(--color-negro);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.toolbar i{
+    color: var(--f7-theme-color);
+}
+.toolbar .tabbar-label{
+    font-size: 12px;
+}
+
+#products .tipo-producto{
+    font-size: 75%;
+    color: var(--color-negro);
+}
+
+#products .nombre-producto{
+    margin-top: 20px;
+}
+
+
+#toolbar-tab .tab-link{
+    font-size: 12px;
+    text-transform: inherit;
+    color: var(--color-negro);
+}
+
+.page-content h2{
+    font-family: 'Libre Bodoni';
+  font-style: italic;
+    font-weight: 200;
+    color: var(--color-celeste);
+}
+
+#welcome .row a{
+      font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+    color: var(--color-marron);
+}
+
+
+
+.bg-gris{
+    background-color: var(--fondo-gris);
+}
+
+.link-icon{
+    text-transform: inherit;
+    font-weight: 400;
+}
+.link-icon span{
+    vertical-align: inherit;
+}
+
+.precio-producto.medium{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+#populares .swiper-container {
+    width: 100%;
+    padding: 20px 0;
+}
+
+
+#populares .swiper-slide {
+    width: 50% !important; 
+    display: flex;
+    justify-content: center;
+}
+
+
+#populares .card {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#populares .card-content img {
+    width: 100%;
+    height: 100vh; 
+    object-fit: cover; 
+}
+
+
+#populares .card-content h4{
+    color: var(--color-azul-oscuro);
+    font-size: 13px;
+}
+
+
+#populares .card-content p{
+    color: var(--color-celeste2);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+
+.ubicacion {
+    font-size: 18px;
+    color: var(--color-azul);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* SOBRE NOSOTROS */
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.tabs button {
+    background-color: var(--card-color);
+    border: 2px solid var(--card-color);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.tabs button:hover,
+.tabs button.active {
+    background-color: var(--color-azul);
+    color: white;
+}
+
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.card-content {
+    padding: 15px;
+}
+
+
+.card-content h3 {
+    color: var(--color-azul-oscuro);
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.card-content p {
+    font-size: 16px;
+    color: var(--color-negro);
+    line-height: 1.5;
+}
+
+.notificaciones {
+            width: 80%;
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .notificacion {
+            background-color: var(--fondo-gris);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .notificacion-icono {
+            width: 40px;
+            height: 40px;
+            background-color: var(--color-azul);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+        }
+        .notificacion-texto {
+            flex-grow: 1;
+            color: var(--color-negro);
+        }
+.bg-gris{
+    background:#DBDBDB;
+    border-radius: 20px;
+    margin: 17px;
+    
+}
+.borderimg{
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+#lattecar h2{
+    color: var(--color-azul-oscuro);
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+}
+#detallepr h2{
+    color: var(--color-azul-oscuro);
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    padding: 20px;
+}
+.precio-producto2 {
+    color: var(--color-celeste2);
+    font-size: 22px;
+    font-family: 'Inter';
+    font-weight:800;
+    font-style: normal;
+}
+.descripcion {
+    color: var(--color-cafe-oscuro);
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight:500;
+    font-style: normal;
+    
+}
+.button-comprar{
+    color: var(--f7-navbar-link-color);
+    background-color: var(--color-celeste2);
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50px;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+    
+}
+.favorite{
+    color: var(--color-celeste2);
+    text-align:right;
+    
+}
+.nombre-producto2{
+    font-size: 15px;
+    color: var(--color-azul-oscuro);
+}
+#interes p{
+    color: var(--color-celeste2);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+#info-producto{
+    background-color: var(--card-color);
+    padding: 18px;
+    border-radius: 17px;
+    justify-content: center;
+    align-items: center;
+}
+
+#info-producto img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+#info-producto h2{
+    color: var(--color-azul-oscuro);
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+}
+#info-producto h4{
+    color: var(--color-celeste);
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+}
+#info-producto p, h5{
+    color: var(--color-cafe-oscuro);
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.button-round{
+    color: var(--f7-navbar-link-color);
+    background-color: var(--color-celeste2);
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 8px 10px;
+    margin-left:10px;
+}
+.text-align-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+.material-symbols-outlined{
+    font-size:20px;
+    color: var(--color-celeste);
+}
+.block-title-medium{
+    font-family: 'Libre Bodoni';
+    color: var(--color-celeste);
+    font-size:20px;
+    font-style: italic;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+#info-products .img-fluid{
+    border-radius: 10px;
+}
+.swiper-container {
+    display: flex;
+}
+.page-comprar{
+    background-color: var(--card-color);
+    border-radius: 17px;
+    padding: 20px;
+    max-width: 85%;
+    margin:auto;
+    text-align: left;
+}
+
+#comprar-producto h2{
+    color: var(--color-azul-oscuro);
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+}
+#comprar-producto h4{
+    color: var(--color-celeste);
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-style: normal;
+}
+#comprar-producto p{
+    color: var(--color-cafe-oscuro);
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.preferencias{
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    color: var(--color-cafe-oscuro);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.swiper-container {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.swiper-slide {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+
+.swiper-slide img {
+    width: 100%; 
+    height: 80px;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.swiper-pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ddd;
+    margin: 0 5px;
+    opacity: 0.8;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--color-azul);
+    opacity: 1;
+}
+
+.button-volver {
+    font-family: 'Abril Fatface', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+}
+
+.button-categorias {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+}
+
+.button-retiro {
+    font-family: 'Libre Bodoni', serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #555;
+}
+
+.button-enviar {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #8B5A2B;
+    color: white;
+}
